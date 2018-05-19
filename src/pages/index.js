@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 const IndexPage = () => (
   <div style={{ color: `blue` }}>
     <div>
+      
       <Link to="/page-2/">Link</Link>
     </div>
     <div>
