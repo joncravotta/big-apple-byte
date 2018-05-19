@@ -8,8 +8,10 @@
     "gatsby-link": "^1.6.40",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-typography": "^1.7.18",
+    "gatsby-remark-prismjs": "^2.0.2",
     "gatsby-source-filesystem": "^1.5.36",
     "gatsby-transformer-remark": "^1.7.41",
+    "prismjs": "^1.14.0",
     "react-helmet": "^5.2.0",
     "typography-theme-bootstrap": "^0.16.7",
     "typography-theme-lawton": "^0.15.10"

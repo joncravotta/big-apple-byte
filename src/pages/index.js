@@ -1,6 +1,10 @@
 import React from 'react';
 import Link from "gatsby-link";
 
+// Syntax highlighting
+require("prismjs/themes/prism-okaidia.css");
+
+
 export default ({ data }) => {
   console.log(data);
   return (
