@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Model controller protocol"
-date:   2017-10-08 02:06:12 -0400
+date:   '2017-10-08'
 categories: Swift
 ---
 

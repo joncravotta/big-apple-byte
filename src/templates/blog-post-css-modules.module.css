@@ -1,6 +1,7 @@
 .header {
   font-size: 125px;
   color:black;
+  border-bottom: 8px solid #fec92e;
 }
 
 a {

@@ -1,0 +1,21 @@
+.postContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.post {
+  width: 400px;
+  padding: 0 20px;
+}
+
+.post h3 {
+  font-size: 36px;
+}
+
+.post span {
+  color: #fec92e;
+  font-family: "Helvetica Neue"
+}

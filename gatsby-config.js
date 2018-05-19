@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Big Apple Byte',
+    title: 'big apple byte',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
