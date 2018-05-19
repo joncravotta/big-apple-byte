@@ -1,8 +1,17 @@
 import Typography from "typography";
 
-import lawtonTheme from "typography-theme-lawton";
-
-const typography = new Typography(lawtonTheme);
+const typography = new Typography({
+  baseFontSize: "18px",
+  baseLineHeight: 1.45,
+  headerFontFamily: [
+    "Helvetica Neue",
+    "Segoe UI",
+    "Helvetica",
+    "Arial",
+    "sans-serif",
+  ],
+  bodyFontFamily: ["Georgia", "serif"],
+});
 
 export default typography;
 
