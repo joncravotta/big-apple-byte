@@ -5,7 +5,7 @@ date:   '2017-10-01'
 categories: Ruby
 ---
 
-## How to setup caching with Dalli and Sinatra
+### How to setup caching with Dalli and Sinatra
 My go to tool for creating micro web api is __[Sinatra](https://www.google.com)__.  It’s a great, easy to use little framework that helps me build apis quick.  I find myself using it as a middle layer between other apis and my apps, so a common thing I need to do is set up a cache.   My go to library for caching is __[Dalli](https://github.com/petergoldstein/dalli)__.  According to its github:
 
 > Dalli is a high performance pure Ruby client for accessing memcached servers. It works with memcached 1.4+ only as it uses the newer binary protocol. It should be considered a replacement for the memcache-client gem.  

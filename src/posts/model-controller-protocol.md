@@ -5,7 +5,7 @@ date:   '2017-10-08'
 categories: Swift
 ---
 
-## Reusable delegation between model controllers and views
+### Reusable delegation between model controllers and views
 
 Using the __[delegation](http://cognitivedesign.com/papers/understanding-delegation-in-ios.html)__ pattern in ios is extremely common, it's __[recommended by apple](https://developer.apple.com/library/content/documentation/General/Conceptual/DevPedia-CocoaCore/Delegation.html)__. It is a way to let two pieces of code talk to eachother, perfect for MVC.  For example your model controller can let your view controller know it has updated its data, a very common practice in any app.
 

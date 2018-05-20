@@ -11,7 +11,7 @@ export default ({ data }) => {
       padding: `0, 20`
     }}>
       <h1 className={styles.header}>{post.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <div className={styles.post} dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
   );
 };

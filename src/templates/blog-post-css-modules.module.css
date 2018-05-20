@@ -1,6 +1,10 @@
 .header {
   font-size: 105px;
   color:black;
+  /* border-bottom: 8px solid #fec92e; */
+}
+
+.post h3{
   border-bottom: 8px solid #fec92e;
 }
 

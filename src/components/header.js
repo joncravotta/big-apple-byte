@@ -5,7 +5,7 @@ import logo from '../assets/apple-icon.png'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      marginBottom: '1.5rem',
+      marginBottom: '2.5rem',
       borderBottom: '8px solid #ffdb75',
       backgroundColor: '#fec92e'
     }}
