@@ -3,7 +3,7 @@ import React from "react";
 export default () => (
   <div>
     <h1>About me</h1>
-    <p>I’m good enough, I’m smart enough, and gosh darn it, people like me!</p>
+    <p>Jon Cravotta's tech blog. Software Engineer @ Rent The Runway. Living in the big apple. </p>
   </div>
 );
 

@@ -13,7 +13,7 @@ export default ({ data }) => {
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div className={styles.post} key={node.id}>
         <Link to={node.fields.slug} style={{ textDecoration: `none`, color: `inherit` }} >
-            <span>{node.frontmatter.date}</span>
+            <span>{node.frontmatter.date} | {node.frontmatter.categories}</span>
             <h3>{node.frontmatter.title}{" "}</h3>
             
             <p>{node.excerpt}</p>
@@ -33,6 +33,7 @@ export const query = graphql`
           id
           frontmatter {
             title
+            categories
             date(formatString: "MMMM D")
           }
           fields {
