@@ -6,12 +6,8 @@
 
 a {
   font-style: bold;
-  text-decoration: none;
-  color:  black;
-}
-
-a:hover {
   text-decoration: underline;
+  color:  black;
 }
 
 p code {
@@ -33,7 +29,7 @@ blockquote {
 
 }
 
-@media (max-width: 800px) { 
+@media (max-width: 600px) { 
   .header {
     font-size: 55px;
   }
