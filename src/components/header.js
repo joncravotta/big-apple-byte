@@ -6,8 +6,8 @@ const Header = ({ siteTitle }) => (
   <div
     style={{
       marginBottom: '2.5rem',
-      borderBottom: '8px solid #ffdb75',
-      backgroundColor: '#fec92e'
+      borderBottom: '8px solid #fec92e',
+      backgroundColor: 'white'
     }}
   >
     <div
@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
     >
       <Link to="/" style={{display: 'flex', alignItems: 'center', flexDirection: 'row', textDecoration: 'none'}}>
         <img style={{width: '35px', height: '35px', margin: '0 auto'}} src={logo} alt="logo" />
-        <h1 style={{margin: '0 auto' , color: 'white', fontSize: `22px`, textDecoration: 'none', paddingLeft: '5px'}}>{siteTitle}</h1>
+        <h1 style={{margin: '0 auto' , color: 'black', fontSize: `22px`, textDecoration: 'none', paddingLeft: '5px'}}>{siteTitle}</h1>
       </Link>
     </div>
   </div>
