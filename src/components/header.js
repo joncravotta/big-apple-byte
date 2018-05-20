@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <Link to="/" style={{display: 'flex', alignItems: 'center', flexDirection: 'row', textDecoration: 'none'}}>
-        <img style={{width: '45px', height: '45px', margin: '0 auto'}} src={logo} alt="logo" />
+        <img style={{width: '35px', height: '35px', margin: '0 auto'}} src={logo} alt="logo" />
         <h1 style={{margin: '0 auto' , color: 'white', fontSize: `22px`, textDecoration: 'none', paddingLeft: '5px'}}>{siteTitle}</h1>
       </Link>
     </div>
