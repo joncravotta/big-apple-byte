@@ -27,6 +27,7 @@
   flex-direction: row;
   list-style: none;
   margin-left: 0;
+  margin-bottom: 0;
 }
 
 .menu li {
