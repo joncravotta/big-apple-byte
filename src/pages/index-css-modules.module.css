@@ -1,14 +1,14 @@
 .postContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
 }
 
 .post {
-  width: 400px;
-  padding: 0 10px;
+  width: 30%;
+  padding-right: 10px;
 }
 
 .post h3 {
@@ -20,13 +20,21 @@
   font-family: "Helvetica Neue"
 }
 
-@media (max-width: 800px) { 
+@media (max-width: 1000px) { 
+  .postContainer {
+    justify-content: space-around;
+  }
+
   .post {
-    width: 300px;
+    width: 40%;
   }
 }
 
-@media (max-width: 600px) { 
+@media (max-width: 800px) { 
+  .postContainer {
+    justify-content: space-around;
+  }
+
   .post {
     width: 100%;
   }
